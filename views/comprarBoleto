@@ -1,0 +1,9 @@
+<% include partials/header %>
+
+<h1><%=evento.nombreEvento%></h1>
+
+<img src="<%= evento.imagen %>">
+
+<p><%= evento.descripcion %></p>
+
+<% include partials/footer %>

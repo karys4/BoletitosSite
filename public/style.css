@@ -1,0 +1,36 @@
+body {
+	background: url(https://images.unsplash.com/photo-1468234847176-28606331216a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c82acc6a6472b4bfb4e5e4aa021f595e&auto=format&fit=crop&w=1615&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+html {
+	height: 100%;
+}
+#content {
+	text-align: center;
+	padding-top: 25%;
+}
+
+hr {
+
+	width: 400px;
+	border-top: 1px solid;
+}
+
+h1 {
+
+	text-align: center;
+}
+
+
+
+.formularioCont {
+	width: 30%;
+	margin: 0 auto;
+	padding-top: 100px;
+
+}
+

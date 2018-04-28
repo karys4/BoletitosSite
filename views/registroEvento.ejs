@@ -1,0 +1,29 @@
+<% include partials/header %>
+
+<div class="container">
+   <div class="row">
+  <h1>Crea un evento</h1>
+  <div class="formularioCont">
+  <form action = "/eventos" method = "POST">
+  <div class="form-group">
+
+    <label for="nombreEvento">Nombre del evento</label>
+    <input type="text" class="form-control" name="nombreEvento" placeholder="Dale un nombre corto" required>
+
+    <label for="imagen">Imagen</label>
+    <input type="text" class="form-control" name="imagen" 
+    placeholder="Agrega URL de imagen" required>
+
+    <label for="fechaHora">Fecha y hora del evento</label>
+    <input type="datetime-local" class="form-control" name="fechaHora" required>
+
+    <label for="descripcion">Descripción del evento</label><br>
+    <input type="text" class="form-control" name="descripcion" required>   
+ 
+  <button type="submit" class="btn btn-lg btn-primary  btn-block">Crear Evento</button>
+   </div>
+</form>
+</div>
+</div>
+</div>
+<% include partials/footer %>

@@ -1,0 +1,21 @@
+<% include partials/header %>
+
+<div class="row text-center" style="display:flex; flex-wrap: wrap;">
+<% clientes.forEach(function(cliente){ %>
+	<div class="col-md-3 col-sm-6">
+    <div class="thumbnail">
+    <h3><%= cliente.nombre %></h3>
+    <h3><%= cliente.apellido %></h3>
+    <h3><%= cliente.correo %></h3>
+    </div>
+    </div>
+
+<% });%>
+
+<% include partials/footer %>
+</div>
+
+
+
+
+ 
